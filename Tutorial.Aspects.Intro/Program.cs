@@ -1,4 +1,5 @@
 ﻿using System;
+using Tutorial.Aspects.Intro.Domain;
 using Tutorial.Aspects.Intro.IoC;
 
 namespace Tutorial.Aspects.Intro

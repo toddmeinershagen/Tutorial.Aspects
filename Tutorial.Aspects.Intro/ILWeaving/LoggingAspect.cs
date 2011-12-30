@@ -1,10 +1,16 @@
 ﻿using System;
 using PostSharp.Aspects;
+using PostSharp.Extensibility;
+using Tutorial.Aspects.Intro.Domain;
 using Tutorial.Aspects.Intro.IoC;
 
 namespace Tutorial.Aspects.Intro.ILWeaving
 {
     [Serializable]
+    [MulticastAttributeUsage(
+        MulticastTargets.Method, 
+        TargetMemberAttributes = MulticastAttributes.Instance
+    )]
     public class LoggingAspect : OnMethodBoundaryAspect
     {
         private ILogger _logger;

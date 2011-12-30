@@ -1,11 +1,9 @@
 ﻿using System;
-using Tutorial.Aspects.Intro.ILWeaving;
 
-namespace Tutorial.Aspects.Intro
+namespace Tutorial.Aspects.Intro.Domain
 {
     public class Example : IExample
     {
-        [LoggingAspect]
         public void MethodOne()
         {
             Console.WriteLine("MethodOne():  Implementation");

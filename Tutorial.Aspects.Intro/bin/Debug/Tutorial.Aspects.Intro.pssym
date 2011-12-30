@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[Tutorial.Aspects.Intro]Tutorial.Aspects.Intro.ILWeaving.LoggingAspect">
-    <Instance Declaration="#2=M:[Tutorial.Aspects.Intro]Tutorial.Aspects.Intro.Example::MethodOne()" Id="16147daa8f93ef69">
-      <Target>
-        <JoinPoint Description="#3=Wrapped by advice(s) OnEntry, OnException, OnExit" />
+    <Instance Declaration="#2=A:Tutorial.Aspects.Intro" Id="16147daa7d27adb4">
+      <Target Target="#3=M:[Tutorial.Aspects.Intro]Tutorial.Aspects.Intro.Domain.AnotherExample::MethodThree()">
+        <JoinPoint Description="#4=Wrapped by advice(s) OnEntry, OnException, OnExit" />
       </Target>
-    </Instance>
-    <Instance Declaration="#4=M:[Tutorial.Aspects.Intro]Tutorial.Aspects.Intro.AnotherExample::MethodThree()" Id="16147daa5c878e6a">
-      <Target>
-        <JoinPoint Description="#3" />
+      <Target Target="#5=M:[Tutorial.Aspects.Intro]Tutorial.Aspects.Intro.Domain.Example::MethodOne()">
+        <JoinPoint Description="#4" />
+      </Target>
+      <Target Target="#6=M:[Tutorial.Aspects.Intro]Tutorial.Aspects.Intro.Domain.Example::MethodTwo()">
+        <JoinPoint Description="#4" />
       </Target>
     </Instance>
   </Class>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tutorial.Aspects.Intro
+namespace Tutorial.Aspects.Intro.Domain
 {
     public interface ILogger
     {

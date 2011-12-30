@@ -1,5 +1,6 @@
 ﻿using System;
 using Castle.DynamicProxy;
+using Tutorial.Aspects.Intro.Domain;
 
 namespace Tutorial.Aspects.Intro.Interception
 {

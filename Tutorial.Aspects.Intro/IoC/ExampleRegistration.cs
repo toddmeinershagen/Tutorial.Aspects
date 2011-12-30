@@ -1,5 +1,6 @@
 ﻿using Castle.MicroKernel;
 using Castle.MicroKernel.Registration;
+using Tutorial.Aspects.Intro.Domain;
 
 namespace Tutorial.Aspects.Intro.IoC
 {
