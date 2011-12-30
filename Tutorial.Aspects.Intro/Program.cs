@@ -7,7 +7,7 @@ namespace Tutorial.Aspects.Intro
         static void Main(string[] args)
         {
             var logger = new ConsoleLogger();
-            var example = new Example(logger);
+            var example = new LoggedExample(logger, new Example());
 
             example.MethodOne();
             example.MethodTwo();

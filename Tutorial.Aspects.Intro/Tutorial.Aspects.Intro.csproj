@@ -45,7 +45,10 @@
   <ItemGroup>
     <Compile Include="ConsoleLogger.cs" />
     <Compile Include="Example.cs" />
+    <Compile Include="IExample.cs" />
     <Compile Include="ILogger.cs" />
+    <Compile Include="LoggedExample.cs" />
+    <Compile Include="LoggingDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
