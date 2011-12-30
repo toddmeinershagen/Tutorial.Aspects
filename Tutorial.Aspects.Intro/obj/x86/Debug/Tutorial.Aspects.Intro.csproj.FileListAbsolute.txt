@@ -7,3 +7,7 @@ Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro
 Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\Castle.Windsor.dll
 Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\Castle.Core.xml
 Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\Castle.Windsor.xml
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\PostSharp.dll
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\PostSharp.xml
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\Tutorial.Aspects.Intro.pssym
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\obj\x86\Debug\Tutorial.Aspects.Intro.exe.postsharp
