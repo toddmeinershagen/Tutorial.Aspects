@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{955BB09A-4FFD-4938-B57F-15908545A764}</ProjectGuid>
+    <ProjectGuid>{DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tutorial.Aspects.Intro</RootNamespace>
@@ -43,15 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleLogger.cs" />
     <Compile Include="Example.cs" />
+    <Compile Include="ILogger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tutorial.Aspects.Infrastructure\Tutorial.Aspects.Infrastructure.csproj">
-      <Project>{7B90514A-666E-41D8-87B4-56732C0F26DE}</Project>
-      <Name>Tutorial.Aspects.Infrastructure</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,5 @@
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\Tutorial.Aspects.Intro.exe
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\bin\Debug\Tutorial.Aspects.Intro.pdb
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\obj\x86\Debug\Tutorial.Aspects.Intro.exe
+Z:\Documents\Visual Studio 2010\Projects\Tutorial.Aspects\Tutorial.Aspects.Intro\obj\x86\Debug\Tutorial.Aspects.Intro.pdb
