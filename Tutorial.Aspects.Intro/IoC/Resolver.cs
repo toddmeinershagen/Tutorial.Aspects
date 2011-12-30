@@ -12,6 +12,7 @@ namespace Tutorial.Aspects.Intro.IoC
             _container = new WindsorContainer();
             _container.Register(new LoggerRegistration());
             _container.Register(new LoggingAspectRegistration());
+            _container.Register(new AddLoggingForAllTypesRegistration());
             _container.Register(new ExampleRegistration());
             _container.Register(new AnotherExampleRegistration());
         }

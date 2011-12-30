@@ -56,6 +56,8 @@
     <Compile Include="IExample.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="Interception\LoggingAspect.cs" />
+    <Compile Include="IoC\AddLoggingForAllTypes.cs" />
+    <Compile Include="IoC\AddLoggingForAllTypesRegistration.cs" />
     <Compile Include="IoC\AnotherExampleRegistration.cs" />
     <Compile Include="IoC\LoggerRegistration.cs" />
     <Compile Include="IoC\ExampleRegistration.cs" />
