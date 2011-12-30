@@ -1,0 +1,65 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="string" priority="1" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="Console`0" priority="1" />
+      <Item value="var" priority="1" />
+      <Item value="new" priority="1" />
+      <Item value="Example`0" priority="0" />
+      <Item value="logger" priority="0" />
+      <Item value="example" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Tutorial.Aspects.Intro.Example">
+      <Item value="MethodOne`0" priority="0" />
+      <Item value="MethodTwo`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7B90514A-666E-41D8-87B4-56732C0F26DE/f:Logger.cs" caret="83" fromTop="4" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="1193" fromTop="11" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Program.cs" caret="363" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="7B90514A-666E-41D8-87B4-56732C0F26DE/f:Logger.cs" caret="196" fromTop="11" />
+      <File id="7B90514A-666E-41D8-87B4-56732C0F26DE/f:Logger.cs" caret="13" fromTop="0" />
+      <File id="7B90514A-666E-41D8-87B4-56732C0F26DE/f:Logger.cs" caret="289" fromTop="4" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="13" fromTop="0" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="1189" fromTop="14" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="1189" fromTop="13" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="1189" fromTop="10" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="1189" fromTop="19" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="1189" fromTop="12" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="124" fromTop="6" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Program.cs" caret="0" fromTop="0" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Program.cs" caret="357" fromTop="15" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="442" fromTop="1" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="906" fromTop="18" />
+      <File id="955BB09A-4FFD-4938-B57F-15908545A764/f:Example.cs" caret="1193" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
