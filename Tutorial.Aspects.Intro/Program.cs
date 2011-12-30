@@ -1,4 +1,5 @@
 ﻿using System;
+using Tutorial.Aspects.Intro.IoC;
 
 namespace Tutorial.Aspects.Intro
 {
@@ -6,8 +7,8 @@ namespace Tutorial.Aspects.Intro
     {
         static void Main(string[] args)
         {
-            var logger = new ConsoleLogger();
-            var example = new LoggedExample(logger, new Example());
+            Resolver.Initialize();
+            var example = Resolver.ResolveFor<IExample>();
 
             example.MethodOne();
             example.MethodTwo();
