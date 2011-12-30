@@ -1,22 +1,25 @@
 ﻿using System;
+using Castle.DynamicProxy;
 
-namespace Tutorial.Aspects.Intro
+namespace Tutorial.Aspects.Intro.Interception
 {
-    public abstract class LoggingDecorator
+    public class LoggingAspect : IInterceptor
     {
-        private readonly ILogger _logger;
+        readonly ILogger _logger;
 
-        protected LoggingDecorator(ILogger logger)
+        public LoggingAspect(ILogger logger)
         {
             _logger = logger;
         }
 
-        protected void Log(string methodName, Action methodBody)
+        public void Intercept(IInvocation invocation)
         {
+            var methodName = invocation.Method.Name;
+
             try
             {
                 _logger.Debug(methodName + "():  OnBegin");
-                methodBody();
+                invocation.Proceed();
             }
             catch (Exception ex)
             {

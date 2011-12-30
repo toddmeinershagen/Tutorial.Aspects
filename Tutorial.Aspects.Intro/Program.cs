@@ -8,10 +8,13 @@ namespace Tutorial.Aspects.Intro
         static void Main(string[] args)
         {
             Resolver.Initialize();
-            var example = Resolver.ResolveFor<IExample>();
 
+            var example = Resolver.ResolveFor<IExample>();
             example.MethodOne();
             example.MethodTwo();
+
+            var anotherExample = Resolver.ResolveFor<IAnotherExample>();
+            anotherExample.MethodThree();
 
             Console.ReadLine();
         }
