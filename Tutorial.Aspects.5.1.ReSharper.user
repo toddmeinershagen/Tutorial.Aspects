@@ -8,36 +8,154 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="1" />
-      <Item value="void" priority="3" />
-      <Item value="string" priority="3" />
+      <Item value="public" priority="16" />
+      <Item value="void" priority="7" />
+      <Item value="string" priority="4" />
       <Item value="Exception`0" priority="1" />
-      <Item value="Console`0" priority="1" />
-      <Item value="var" priority="1" />
-      <Item value="new" priority="1" />
-      <Item value="Example`0" priority="0" />
-      <Item value="logger" priority="0" />
-      <Item value="example" priority="1" />
+      <Item value="Console`0" priority="4" />
+      <Item value="var" priority="7" />
+      <Item value="new" priority="8" />
+      <Item value="Example`0" priority="3" />
+      <Item value="logger" priority="3" />
+      <Item value="example" priority="4" />
+      <Item value="ConsoleLogger`0" priority="3" />
+      <Item value="Action`0" priority="0" />
+      <Item value="action" priority="0" />
+      <Item value="methodBody" priority="0" />
+      <Item value="methodName" priority="4" />
+      <Item value="LoggedExample`0" priority="1" />
+      <Item value="IExample`0" priority="2" />
+      <Item value="readonly" priority="1" />
+      <Item value="_example" priority="2" />
+      <Item value="private" priority="1" />
+      <Item value="ILogger`0" priority="4" />
+      <Item value="_logger" priority="6" />
+      <Item value="LoggingDecorator`0" priority="1" />
+      <Item value="base" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="kernel" priority="3" />
+      <Item value="Component`0" priority="5" />
+      <Item value="LoggedExampleRegistration`0" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="_container" priority="3" />
+      <Item value="invocation" priority="1" />
+      <Item value="typeof" priority="2" />
+      <Item value="LoggingAspect`0" priority="0" />
+      <Item value="AnotherExample`0" priority="0" />
+      <Item value="Resolver`0" priority="0" />
+      <Item value="IAnotherExample`0" priority="0" />
+      <Item value="anotherExample" priority="0" />
+      <Item value="Aspects" priority="0" />
+      <Item value="override" priority="4" />
+      <Item value="if" priority="1" />
+      <Item value="return" priority="0" />
+      <Item value="args" priority="5" />
+      <Item value="_methodName" priority="0" />
+      <Item value="method" priority="0" />
+      <Item value="assembly" priority="0" />
+      <Item value="AttributeExclude" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Console">
-      <Item value="WriteLine`0" priority="1" />
+      <Item value="WriteLine`0" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Tutorial.Aspects.Intro.Example">
+      <Item value="MethodOne`0" priority="1" />
+      <Item value="MethodTwo`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Tutorial.Aspects.Intro.IExample">
       <Item value="MethodOne`0" priority="0" />
       <Item value="MethodTwo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.IKernelInternal">
+      <Item value="Register`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Castle.MicroKernel.Registration.Component">
+      <Item value="For`5" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.ComponentRegistration`1">
+      <Item value="ImplementedBy`0" priority="5" />
+      <Item value="Instance`0" priority="0" />
+      <Item value="Configuration`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Tutorial.Aspects.Intro.IoC.Resolver">
+      <Item value="ResolveFor`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.IWindsorContainer">
+      <Item value="Register`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.DynamicProxy.IInvocation">
+      <Item value="Method" priority="0" />
+      <Item value="Proceed`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Tutorial.Aspects.Intro.IAnotherExample">
+      <Item value="MethodThree`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Castle.Core.InterceptorReference">
+      <Item value="ForType`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PostSharp.Aspects.MethodExecutionArgs">
+      <Item value="Method" priority="4" />
+      <Item value="Exception" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Tutorial.Aspects.Intro.ILogger">
+      <Item value="Error`0" priority="0" />
+      <Item value="Debug`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodBase">
+      <Item value="Name" priority="1" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:Example.cs" caret="1150" fromTop="19" />
-      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:ILogger.cs" caret="13" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:ExampleRegistration.cs" caret="377" fromTop="13" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:AnotherExampleRegistration.cs" caret="413" fromTop="14" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Interception/f:LoggingAspect.cs" caret="0" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:Program.cs" caret="0" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:ResolverException.cs" caret="0" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="190" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:LoggerRegistration.cs" caret="316" fromTop="8" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:Resolver.cs" caret="285" fromTop="8" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:AnotherExample.cs" caret="56" fromTop="2" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:IAnotherExample.cs" caret="30" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:IExample.cs" caret="29" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Infrastructure/f:ConsoleLogger.cs" caret="130" fromTop="4" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:ILogger.cs" caret="48" fromTop="2" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:Example.cs" caret="45" fromTop="2" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Properties/f:AssemblyInfo.cs" caret="1617" fromTop="20" />
     </RecentFiles>
     <RecentEdits>
-      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:Example.cs" caret="13" fromTop="0" />
-      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:Example.cs" caret="108" fromTop="6" />
-      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:Example.cs" caret="1155" fromTop="19" />
-      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:ILogger.cs" caret="184" fromTop="10" />
-      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:ILogger.cs" caret="13" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Interception/f:LoggingAspect.cs" caret="204" fromTop="7" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:AnotherExample.cs" caret="13" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:AnotherExample.cs" caret="224" fromTop="7" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:AnotherExampleRegistration.cs" caret="0" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:AnotherExampleRegistration.cs" caret="211" fromTop="6" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:AnotherExampleRegistration.cs" caret="390" fromTop="10" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:Program.cs" caret="445" fromTop="15" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/f:Program.cs" caret="241" fromTop="10" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:AnotherExample.cs" caret="261" fromTop="15" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="0" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="1131" fromTop="30" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="450" fromTop="12" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="546" fromTop="13" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="700" fromTop="18" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="869" fromTop="23" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:AnotherExample.cs" caret="117" fromTop="6" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:Example.cs" caret="103" fromTop="6" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:Resolver.cs" caret="330" fromTop="6" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:LoggerRegistration.cs" caret="403" fromTop="9" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:ILWeaving/f:LoggingAspect.cs" caret="348" fromTop="11" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:IoC/f:Resolver.cs" caret="36" fromTop="1" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:AnotherExample.cs" caret="56" fromTop="2" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:Example.cs" caret="45" fromTop="2" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:IAnotherExample.cs" caret="30" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:IExample.cs" caret="29" fromTop="0" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:ILogger.cs" caret="124" fromTop="2" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Domain/f:ILogger.cs" caret="48" fromTop="2" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Infrastructure/f:ConsoleLogger.cs" caret="130" fromTop="4" />
+      <File id="DB9CAC83-088E-4FBC-A0FB-AAF962BB48D6/d:Properties/f:AssemblyInfo.cs" caret="1617" fromTop="20" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

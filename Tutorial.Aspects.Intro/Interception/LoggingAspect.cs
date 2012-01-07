@@ -4,7 +4,7 @@ using Tutorial.Aspects.Intro.Domain;
 
 namespace Tutorial.Aspects.Intro.Interception
 {
-    public class LoggingAspect : IInterceptor
+    public class LoggingAspect : BaseInterceptor
     {
         readonly ILogger _logger;
 
@@ -13,23 +13,22 @@ namespace Tutorial.Aspects.Intro.Interception
             _logger = logger;
         }
 
-        public void Intercept(IInvocation invocation)
+        protected override void OnBefore(IInvocation invocation, bool proceed)
         {
             var methodName = invocation.Method.Name;
+            _logger.Debug(methodName + "():  OnBegin");
+        }
 
-            try
-            {
-                _logger.Debug(methodName + "():  OnBegin");
-                invocation.Proceed();
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(methodName + "():  OnException", ex);
-            }
-            finally
-            {
-                _logger.Debug(methodName + "():  OnEnd");
-            }
+        protected override void OnAfterThrowing(IInvocation invocation, Exception ex)
+        {
+            var methodName = invocation.Method.Name;
+            _logger.Error(methodName + "():  OnException", ex);
+        }
+
+        protected override void OnAfter(IInvocation invocation)
+        {
+            var methodName = invocation.Method.Name;
+            _logger.Debug(methodName + "():  OnEnd");
         }
     }
 }

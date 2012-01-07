@@ -60,6 +60,7 @@
     <Compile Include="Domain\IExample.cs" />
     <Compile Include="Domain\ILogger.cs" />
     <Compile Include="ILWeaving\LoggingAspect.cs" />
+    <Compile Include="Interception\BaseInterceptor.cs" />
     <Compile Include="Interception\LoggingAspect.cs" />
     <Compile Include="IoC\AnotherExampleRegistration.cs" />
     <Compile Include="IoC\LoggerRegistration.cs" />
