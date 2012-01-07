@@ -4,7 +4,7 @@ using Tutorial.Aspects.Intro.Domain;
 
 namespace Tutorial.Aspects.Intro.Interception
 {
-    public class LoggingAspect : BaseInterceptor
+    public class LoggingAspect : BaseAspect
     {
         readonly ILogger _logger;
 

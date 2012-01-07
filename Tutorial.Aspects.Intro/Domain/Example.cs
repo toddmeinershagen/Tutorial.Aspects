@@ -1,4 +1,5 @@
 ﻿using System;
+using Tutorial.Aspects.Intro.ILWeaving;
 
 namespace Tutorial.Aspects.Intro.Domain
 {
@@ -9,6 +10,7 @@ namespace Tutorial.Aspects.Intro.Domain
             Console.WriteLine("MethodOne():  Implementation");
         }
 
+        [LoggingAspect]
         public void MethodTwo()
         {
             Console.WriteLine("MethodTwo():  Implementation");

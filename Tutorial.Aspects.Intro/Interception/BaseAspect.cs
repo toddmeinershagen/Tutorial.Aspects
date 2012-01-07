@@ -3,7 +3,7 @@ using Castle.DynamicProxy;
 
 namespace Tutorial.Aspects.Intro.Interception
 {
-    public abstract class BaseInterceptor : IInterceptor
+    public abstract class BaseAspect : IInterceptor
     {
         public void Intercept(IInvocation invocation)
         {

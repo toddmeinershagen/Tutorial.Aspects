@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using PostSharp.Extensibility;
 using Tutorial.Aspects.Intro.ILWeaving;
@@ -38,4 +37,4 @@ using Tutorial.Aspects.Intro.ILWeaving;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
 //aspects
-[assembly: LoggingAspect(AttributeTargetTypes = "Tutorial.Aspects.Intro.Domain.*", AttributeTargetTypeAttributes = MulticastAttributes.Public)]
+//[assembly: LoggingAspect(AttributeTargetTypes = "Tutorial.Aspects.Intro.Domain.*", AttributeTargetTypeAttributes = MulticastAttributes.Public)]
